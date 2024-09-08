@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+}
+
+
+
+.banner {
+    position: relative;
+    background-image: url('https://lh4.googleusercontent.com/proxy/hAckQI1LRWgzcUe0RGoe4z84PPfXw8bUdkw7Qfy3yLSbxU5LCOdmu7OyV8AIXMChKdLBPbj_jq5t393vLwCMQm-DHbauaSBb-sDLSqmgMs0iiRGFhRt_Gh-VXwIvd8ZB3gDsH7oeJPifvYPa_g');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0;
+    margin: 0;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: white;
+    text-align: end ;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.content-section{
+    background-color: #212529;
+
+}
+
+.content-section{
+    display: flex;
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 1500px;
+    height: auto;
+    flex-direction: row;
+    align-items: start;
+    margin: 30px;
+    font-family: "Garamond", sans-serif;
+}
+
+.character-info{
+    width: 200px;
+    height: fit-content;
+    display: inline-flex;
+    border-radius: 25px;
+    background: white;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.character-info h3{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+.image{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.characters h2{
+    color: white;
+    text-align: center;
+    font-family: Garamond, sans-serif;
+    font-size: 3em;
+}
+
+#galeria{
+    display: table-row;
+    color: white;
+    font-family: Garamond, sans-serif;
+    font-size: 3em;
+}
+
+#final{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}

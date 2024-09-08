@@ -1,0 +1,19 @@
+.caja{
+    font-size: 20px;
+}
+
+.main-title{
+    text-decoration: underline;
+    color: white;
+    background-color: black
+}
+
+.parrafo1{
+    color: navy;
+    text-align: justify;
+}
+
+.parrafo2{
+    text-transform: uppercase;
+    font-size: 12px;
+}
